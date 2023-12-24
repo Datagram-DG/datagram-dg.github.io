@@ -56,8 +56,8 @@ import { getID } from "../../../data/js/authState.js";
             element.classList.add('form');
             element.innerHTML = (`
                 <div class="User-name">
-                    <h2 data-user="username">Loading</h2>
-                    <p data-user="gid">Loading</p>
+                    <h2 data-user="username">Loading...</h2>
+                    <p data-user="gid">Loading...</p>
                 </div>
                 <div class="User-picture" data-user="picture"></div>
                 <div class="bio">
